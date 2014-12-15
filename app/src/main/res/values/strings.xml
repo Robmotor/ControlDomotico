@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ControlDomotico</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="bluetooth">Conectarse a</string>
+
+
+    <!--  ListaDispositivosActivity -->
+    <string name="scanning">Buscando dispositivos</string>
+    <string name="select_device">Seleccione el dispositivo Domotico</string>
+    <string name="none_paired">Ningun dispositivo ha sido emparejado</string>
+    <string name="none_found">Ninguno Encontrado</string>
+    <string name="title_paired_devices">Dispositivos emparejados</string>
+    <string name="title_other_devices">Otros dispositivos disponibles</string>
+    <string name="button_scan">Buscar dispositivos</string>
+
+    <!--  BluetoothChat -->
+    <string name="send">Send</string>
+    <string name="not_connected">You are not connected to a device</string>
+    <string name="bt_not_enabled_leaving">Bluetooth no se habilitó. Cerrando APP.</string>
+    <string name="title_connecting">connecting...</string>
+    <!-- <string name="title_connected_to">connected to <xliff:g id="device_name">%1$s</xliff:g></string>-->
+     <string name="title_not_connected">not connected</string>
+ </resources>
