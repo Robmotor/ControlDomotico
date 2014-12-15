@@ -8,34 +8,94 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:minHeight="?android:attr/listPreferredItemHeight"
-        android:text="Luz 2"
+        android:text="Puerta 2"
         android:id="@+id/luz2"
-        android:layout_below="@+id/luz1"
-        android:layout_alignLeft="@+id/luz1"
-        android:layout_alignStart="@+id/luz1" />
+        android:layout_alignBaseline="@+id/luz1"
+        android:layout_alignBottom="@+id/luz1"
+        android:layout_toRightOf="@+id/luz1"
+        android:layout_toEndOf="@+id/luz1" />
 
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Luz 1"
+        android:text="Puerta 1"
         android:id="@+id/luz1"
         android:minHeight="?android:attr/listPreferredItemHeight"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Enviar"
         android:id="@+id/button"
+        android:minHeight="?android:attr/listPreferredItemHeight"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_toRightOf="@+id/conectado"
+        android:layout_toEndOf="@+id/conectado"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="¿Conectado?"
         android:id="@+id/conectado"
+        android:minHeight="?android:attr/listPreferredItemHeight"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Luz 3"
+        android:id="@+id/luz3"
+        android:minHeight="?android:attr/listPreferredItemHeight"
+
+        android:textOn="Luz1"
+        android:textOff="Luz1"
+        android:layout_below="@+id/luz1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Luz4"
+        android:id="@+id/luz4"
+        android:minHeight="?android:attr/listPreferredItemHeight"
+
+        android:textOff="Luz2"
+        android:textOn="Luz2"
         android:layout_below="@+id/luz2"
-        android:layout_centerHorizontal="true" />
+        android:layout_toRightOf="@+id/luz3"
+        android:layout_toEndOf="@+id/luz3" />
+
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New ToggleButton"
+        android:minHeight="?android:attr/listPreferredItemHeight"
+        android:id="@+id/luz5"
+
+        android:textOff="Luz3"
+        android:textOn="Luz3"
+        android:layout_below="@+id/luz2"
+        android:layout_toRightOf="@+id/luz4"
+        android:layout_toEndOf="@+id/luz4" />
+
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New ToggleButton"
+        android:id="@+id/luz6"
+        android:minHeight="?android:attr/listPreferredItemHeight"
+
+        android:textOff="Luz4"
+        android:textOn="Luz4"
+        android:layout_alignTop="@+id/luz5"
+        android:layout_toRightOf="@+id/luz5"
+        android:layout_toEndOf="@+id/luz5" />
 </RelativeLayout>
